@@ -13,5 +13,5 @@ import retrofit2.http.GET;
 
 public interface ApiService {
     @GET("read_data.php")
-    Call<Response> response_read_data();
+    Call<com.rais.haidar.gitreaddata.ResponseServer.Response> response_read_data();
 }

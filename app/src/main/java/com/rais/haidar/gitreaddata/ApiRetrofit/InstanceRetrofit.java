@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class InstanceRetrofit {
-    public static final String WebUrl = "http://192.168.10.49/kamusidiom/read_data.php";
+    public static final String WebUrl = "http://192.168.10.84/kamusidiom/read_data.php/";
 
     public static Retrofit setInit() {
         return new Retrofit.Builder()

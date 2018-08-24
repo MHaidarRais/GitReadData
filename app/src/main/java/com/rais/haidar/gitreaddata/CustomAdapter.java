@@ -33,8 +33,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, final int position) {
-        holder.txtIndo.setText(data.get(position).getId().toString());
-        holder.txtInggris.setText(data.get(position).getId().toString());
+        holder.txtIndo.setText(data.get(position).getDeskripsi().toString());
+        holder.txtInggris.setText(data.get(position).getInggris().toString());
 
     }
 

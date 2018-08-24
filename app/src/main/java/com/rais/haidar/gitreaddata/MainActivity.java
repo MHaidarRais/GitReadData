@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     List<DataItem> dataItems = new ArrayList<>();
+    public static final String WebUrl = "http://192.168.10.84/kamusidiom/read_data.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
